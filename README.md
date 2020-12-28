@@ -5,6 +5,10 @@
 ### Table of Contents
 
 * [Classic Machine Learning Algorithms](#classic)
+* [Bias-Variance Trade Off](#tradeoff)
+* [Bootstrap](#bootstrap)
+
+<a name="classic"/>
 
 ### Classic Machine Learning Algorithms
 
@@ -15,4 +19,15 @@
 | Logistic Regression | Polynomial degree<br />Penalty term |      |      |
 | Neural Networks     | Number of layers<br />Penalty term  |      |      |
 | Decision Tree       | Tree depth                          |      |      |
+
+<a name="tradeoff"/>
+
+### Bias-Variance Trade Off
+
+| Models        | Bias      | Variance      | Problem      |
+| ------------- | --------- | ------------- | ------------ |
+| Simple Model  | High Bias | Low Variance  | Underfitting |
+| Complex Model | Low Bias  | High Variance | Overfitting  |
+
+ 
 
