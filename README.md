@@ -6,7 +6,7 @@
 
 * [Classic Machine Learning Algorithms](#classic)
 * [Bias-Variance Trade Off](#tradeoff)
-* [Bootstrap](#bootstrap)
+* Interview Questions
 
 <a name="classic"/>
 
@@ -29,5 +29,6 @@
 | Simple Model  | High Bias | Low Variance  | Underfitting |
 | Complex Model | Low Bias  | High Variance | Overfitting  |
 
- 
+ ### Interview Questions
 
+1. A data scientist is working on optimizing a model during the training process by varying multiple parameters. The data scientist observes that, during multiple runs with identical parameters, the loss function converges to different, yet stable, values. What should the data scientist do to improve the training process? (Reduce the batch size. Decrease the learning rate)
